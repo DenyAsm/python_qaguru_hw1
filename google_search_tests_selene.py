@@ -1,6 +1,6 @@
 from selene import browser, have, Browser, be
 
-
+#
 def test_captcha_should_be_shown():
     browser.open('https://google.com')
     browser.element('[name="q"]').type('qa.guru').press_enter()
